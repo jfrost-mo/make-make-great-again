@@ -47,5 +47,6 @@ read -s
 # Slide 6
 clear
 printf "\n\n\n\n\t\t${BOLD}Thank you${RESET}\n\n"
-printf "\tAny questions?\n\n\n\n\n\n"
+printf "\tAny questions?\n\n"
+printf "\tSlides:\n\thttps://github.com/jfrost-mo/make-make-great-again\n\n"
 read -s
