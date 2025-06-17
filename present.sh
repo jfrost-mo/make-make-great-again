@@ -27,13 +27,13 @@ printf "\t* Make is configured through a Makefile containing a number of\n"
 printf "\t  targets and recipes to build each target.\n\n"
 read -s
 
-# Slide 4
+# Slide 3
 clear
 printf "\n\t\t${BOLD}Anatomy of a Makefile${RESET}\n\n"
 bat --style numbers Makefile
 read -s
 
-# Slide 5
+# Slide 4
 clear
 printf "\n\t\t${BOLD}Improving your Developer Experience${RESET}\n\n"
 printf "\tMake can improve your developer experience in several ways:\n\n"
@@ -44,7 +44,7 @@ printf "\tMake isn't just for building C/C++ projects. It is useful for\n"
 printf "\trunning many other tasks in projects of any language.\n\n"
 read -s
 
-# Slide 6
+# Slide 5
 clear
 printf "\n\n\n\n\t\t${BOLD}Thank you${RESET}\n\n"
 printf "\tAny questions?\n\n"
