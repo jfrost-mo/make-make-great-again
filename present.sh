@@ -30,7 +30,12 @@ read -s
 # Slide 3
 clear
 printf "\n\t\t${BOLD}Anatomy of a Makefile${RESET}\n\n"
-bat --style numbers Makefile
+# Compatibility for if bat is not installed.
+if command -v bat > /dev/null ; then
+  bat --style numbers Makefile
+else
+  cat Makefile
+fi
 read -s
 
 # Slide 4
