@@ -6,9 +6,9 @@ BOLD='\033[1m'
 # Slide 1
 clear
 printf "\n\n\n\n\t\t${BOLD}Make Make Great Again!${RESET}\n\n"
-printf "\tHow using Make can improve your developer experience in 2025.\n\n"
+printf "\tHow using Make can improve your developer experience in 2026.\n\n"
 printf "\tJames Frost <james.frost@metoffice.gov.uk>\n"
-printf "\tRSE South West, 2025-06-23\n\n"
+printf "\tSSE CoP, 2026-06-18\n\n"
 read -s
 
 # Slide 2
